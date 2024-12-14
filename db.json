@@ -1,0 +1,35 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "E-commerce Project",
+            "description": "NTI final project",
+            "summary":"This project is my graduation project from NTI Frontend Training. My responsibility in this project was handling all JavaScript code and integrating the application with Firebase services.",
+            "image": "./imgs/e-commerce.PNG",
+            "sourceCode": "https://github.com/owalid750/NTI-Web-Design-Final-Project",
+            "liveDemo": "https://owalid750.github.io/NTI-Web-Design-Final-Project/index.html",
+            "tags": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Bootstrap",
+                "Firebase Authentication",
+                "Firestore",
+                "Git & GitHub"
+            ],
+            "technologies": [
+                "HTML: For structuring the web pages.",
+                "CSS: For styling the application.",
+                "JavaScript: For interactive features and logic.",
+                "Bootstrap: For responsive design and pre-built components.",
+                "Firebase: Authentication and Firestore."
+            ],
+            "features": [
+                "User Authentication: Register and login using Firebase Authentication with email and password.",
+                "API Endpoints: Retrieve all products and get a specific product by ID.",
+                "Local Storage: Add products to the cart and retrieve them on the cart page.",
+                "Session Storage: Save the login status of the user."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+<!-- مديرية الشئون الصحية ببني سويف (Health Department of Beni Suef) -->
+            <div class="training-card p-4 rounded border">
+                <div class="row mb-3">
+                    <div class="col-12 col-md-8">
+                        <h3>Beni Suef Health Directorate - Technical Support (6 Months)</h3>
+                    </div>
+                    <div class="col-12 col-md-4 text-md-end">
+                        <span class="badge bg-dark">From 1/10/2023 to 31/03/2024</span>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <p><strong>Role:</strong> helpdesk support</p>
+                    <p><strong>Experience Gained:</strong> During my 6-month tenure, I developed and refined technical
+                        skills related to network troubleshooting, helpdesk support, and system administration. I played
+                        a key role in addressing and resolving various network-related issues and technical problems,
+                        ensuring smooth operations for users within the department. My responsibilities included
+                        assisting with hardware and software troubleshooting, responding to user inquiries, and
+                        providing technical guidance on solving issues related to network connectivity and system
+                        performance. This experience significantly enhanced my problem-solving abilities and deepened my
+                        understanding of IT infrastructure.</p>
+                </div>
+            </div>
