@@ -1,5 +1,6 @@
 /* Start Projects */
 let projectsContainer = document.getElementById("projects");
+let loadingElement = document.getElementById("loading");
 let errorMessage = document.getElementById("error-message");
 
 // Function to fetch projects
@@ -71,6 +72,7 @@ window.onload = async () => {
         });
 
         projectsContainer.appendChild(projectCard);
+        loadingElement.textContent = ""
     });
 };
 /* End Projects  */
