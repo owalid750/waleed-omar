@@ -22,7 +22,7 @@
         <section class="profile">
             <div class="image-container">
                 <a href="#imageModal" data-bs-toggle="modal">
-                    <img src="imgs/1.png" alt="Waleed Omar" class="img-fluid">
+                    <img src="imgs/1.png" alt="Waleed Omar" loading="lazy" class="img-fluid">
                 </a>
             </div>
 
@@ -34,23 +34,33 @@
                 <p>WhatsApp: <a href="tel:01032343059">01032343059</a></p>
             </div>
 
-            <a class="main-btn" href="imgs/CV.pdf" download>Download My CV</a>
+            <a class="main-btn" href="Waleed Omar.pdf" download>Download My CV</a>
 
-            <!-- Modal for Image -->
+            <!-- Modal for About -->
             <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
-                        <div class="modal-header">
+                        <!-- Modal Header -->
+                        <div class="modal-header" style="background-color: #343a40; color: #fff;">
                             <h5 class="modal-title" id="imageModalLabel">Waleed Omar</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                                style="border: none; background: transparent; color: #fff;"></button>
                         </div>
+                        <!-- Modal Body -->
                         <div class="modal-body">
                             <!-- Full Image inside the Modal -->
-                            <img src="imgs/3.jpg" alt="Waleed Omar" class="img-fluid">
+                            <img src="imgs/3.jpg" alt="Waleed Omar" class="img-fluid rounded mb-4">
+                            <!-- Objective Text -->
+                            <p class="text-center" style="font-size: 1.1rem; color: #555;">As a Junior Front-End
+                                Developer, I am eager to contribute my skills in HTML, CSS, JavaScript, and Bootstrap to
+                                help create engaging and responsive web applications. I aim to join a company where I
+                                can grow professionally, learn from experienced developers, and contribute to the team’s
+                                success.</p>
                         </div>
                     </div>
                 </div>
             </div>
+
         </section>
 
 
@@ -191,7 +201,7 @@
                     <h4>Languages</h4>
                     <ul>
                         <li><strong>Arabic:</strong> Native</li>
-                        <li><strong>English:</strong> Very Good</li>
+                        <li><strong>English:</strong> B2</li>
                     </ul>
                 </div>
             </div>
