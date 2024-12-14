@@ -2,6 +2,30 @@
 let projectsContainer = document.getElementById("projects");
 let loadingElement = document.getElementById("loading");
 let errorMessage = document.getElementById("error-message");
+/* image loading  */
+// Wait for the DOM to be ready
+window.addEventListener('load', function () {
+    // Get all images with the class 'portfolio-image'
+    const images = document.querySelectorAll('.portfolio-image');
+
+    // Loop through each image
+    images.forEach(function (image) {
+        const placeholder = image.previousElementSibling; // The placeholder div
+
+        // When the image is fully loaded
+        image.onload = function () {
+            // Hide the placeholder and show the image
+            placeholder.style.display = "none";
+            image.style.display = "block";
+        }
+
+        // Set the image source, triggering the load event
+        // This ensures the image starts loading even if the src was not set initially
+        if (image.complete) {
+            image.onload();
+        }
+    });
+});
 
 // Function to fetch projects
 async function getProjects() {
