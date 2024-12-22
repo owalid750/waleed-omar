@@ -4,7 +4,7 @@
             "id": 1,
             "title": "E-commerce Project",
             "description": "NTI final project",
-            "summary":"This project is my graduation project from NTI Frontend Training. My responsibility in this project was handling all JavaScript code and integrating the application with Firebase services.",
+            "summary": "This project is my graduation project from NTI Frontend Training. My responsibility in this project was handling all JavaScript code and integrating the application with Firebase services.",
             "image": "./imgs/e-commerce.PNG",
             "sourceCode": "https://github.com/owalid750/NTI-Web-Design-Final-Project",
             "liveDemo": "https://owalid750.github.io/NTI-Web-Design-Final-Project/index.html",
@@ -36,7 +36,7 @@
             "title": "ThinkifyJS",
             "description": "An open-source interactive quiz application",
             "summary": "ThinkifyJS is a collaborative open-source project designed for learners to enhance their development skills. My contributions include designing, coding, and maintaining the project while helping others learn and contribute step-by-step.",
-            "image": "./imgs/thinkifyjs.PNG",
+            "image": "./imgs/ThinkifyJS.PNG",
             "sourceCode": "https://github.com/owalid750/ThinkifyJS",
             "liveDemo": "https://owalid750.github.io/ThinkifyJS/index.html",
             "tags": [
@@ -88,7 +88,5 @@
                 "Customizable: Easily extendable to add more projects or update content."
             ]
         }
-        
-        
     ]
 }
