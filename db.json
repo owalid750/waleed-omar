@@ -30,6 +30,65 @@
                 "Local Storage: Add products to the cart and retrieve them on the cart page.",
                 "Session Storage: Save the login status of the user."
             ]
+        },
+        {
+            "id": 2,
+            "title": "ThinkifyJS",
+            "description": "An open-source interactive quiz application",
+            "summary": "ThinkifyJS is a collaborative open-source project designed for learners to enhance their development skills. My contributions include designing, coding, and maintaining the project while helping others learn and contribute step-by-step.",
+            "image": "./imgs/thinkifyjs.PNG",
+            "sourceCode": "https://github.com/owalid750/ThinkifyJS",
+            "liveDemo": "https://owalid750.github.io/ThinkifyJS/index.html",
+            "tags": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Git & GitHub",
+                "Open Source"
+            ],
+            "technologies": [
+                "HTML: For structuring the web pages.",
+                "CSS: For styling and responsive design.",
+                "JavaScript: For application logic and interactivity.",
+                "Git & GitHub: For version control and collaboration."
+            ],
+            "features": [
+                "Interactive Quiz: Users can answer questions and get immediate feedback.",
+                "Responsive Design: Works seamlessly on desktop and mobile devices.",
+                "Session Storage: Save user progress during the session.",
+                "Open Source Collaboration: Designed for learners to contribute and grow together."
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Portfolio Website",
+            "description": "My personal portfolio to showcase my projects and skills.",
+            "summary": "This is my personal portfolio website, designed and developed to highlight my projects, skills, and achievements. The site is fully responsive and built using modern web development technologies.",
+            "image": "./imgs/portfolio.PNG",
+            "sourceCode": "https://github.com/owalid750/waleed-omar",
+            "liveDemo": "https://owalid750.github.io/waleed-omar/",
+            "tags": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Responsive Design",
+                "Git & GitHub"
+            ],
+            "technologies": [
+                "HTML: For creating the structure of the website.",
+                "CSS: For styling and making the design visually appealing.",
+                "JavaScript: For adding interactive elements and enhancing functionality.",
+                "Responsive Design: Ensures compatibility across different devices and screen sizes.",
+                "Git & GitHub: For version control and hosting the project."
+            ],
+            "features": [
+                "Showcasing Projects: A dedicated section to display all my work with live demo links.",
+                "Responsive Design: The website is fully responsive and optimized for all devices.",
+                "Interactive Navigation: Smooth scrolling and intuitive navigation for a better user experience.",
+                "Customizable: Easily extendable to add more projects or update content."
+            ]
         }
+        
+        
     ]
 }

@@ -77,7 +77,7 @@ window.onload = async () => {
                 <img src="${project.image}" alt="${project.title}">
             </div>
             <h3>${project.title}</h3>
-            <p>${project.description}</p>
+            <p>${project.description.substring(0,50)}...</p>
             <a href="#" class="btn">View Details</a>
         `;
 
